@@ -41,6 +41,7 @@ function App() {
       {books.map((books) => (
         <Bookcard
           key={books.id}
+          id={books.id}
           image={books.image}
           name={books.name}
           genre={books.genre}
